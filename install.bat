@@ -12,7 +12,7 @@ IF NOT EXIST BuildTools (
 cd BuildTools
 curl -z BuildTools.jar -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 set /p Input=Enter the version: || set Input=latest
-java -jar BuildTools.jar --rev %Input%
+"C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin\java" -jar BuildTools.jar --rev %Input%
 cd ..
-cp .\BuildTools\spigot-*.jar spigot.jar
+copy /B .\BuildTools\spigot-*.jar spigot.jar
 pause
