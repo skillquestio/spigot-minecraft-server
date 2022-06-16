@@ -9,6 +9,7 @@ cd ..
 IF NOT EXIST BuildTools (
     mkdir BuildTools
 )
+del .\BuildTools\spigot-*.jar
 cd BuildTools
 curl -z BuildTools.jar -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 set /p Input=Enter the version: || set Input=latest
