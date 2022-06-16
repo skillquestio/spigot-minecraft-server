@@ -2,4 +2,6 @@
 
 !install.bat
 !start.bat
+!start.sh
+!install.sh
 !.gitignore
