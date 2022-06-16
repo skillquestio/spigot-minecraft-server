@@ -1,7 +1,9 @@
 *
 
+!install.bash
 !install.bat
+!install.sh
 !start.bat
 !start.sh
-!install.sh
 !.gitignore
+!README.md
