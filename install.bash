@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo brew install openjdk@17
+brew install openjdk@17
 mkdir -p BuildTools
 rm ./BuildTools/spigot-*.jar
 cd BuildTools
